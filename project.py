@@ -41,7 +41,6 @@ tokenized_test_dataset = tokenized_datasets["test"].shuffle(seed=42).select(rang
 tokenized_validation_dataset = tokenized_datasets["validation"].shuffle(seed=42)
 
 print(tokenized_train_dataset)
-print(tokenized_train_dataset[0])
 
 def compute_metrics(eval_pred):
     predictions, labels = eval_pred
