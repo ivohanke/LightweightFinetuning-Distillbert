@@ -1,3 +1,6 @@
 transformers
 datasets
 peft
+evaluate
+accelerate
+scikit-learn
