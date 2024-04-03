@@ -19,6 +19,10 @@ def tokenize_function(examples):
 # Load the IMDb dataset
 dataset = load_dataset('imdb')
 
+
+# Split the original training data into new training data and validation data
+train_test_split = dataset['train'].train_test_split(test_size=0.1)
+
 dataset = DatasetDict({
     'train': train_test_split['train'],
     'validation': train_test_split['test'],
