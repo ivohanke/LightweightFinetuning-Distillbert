@@ -1,1 +1,1 @@
-Inital commit of a lightweight training of an foundational model (Distillbert) with LoRA/peft, dataset is "imdb".
+A prototypical lightweight fine tuning of an foundational model (Distillbert) with LoRA/peft, dataset is "imdb".
